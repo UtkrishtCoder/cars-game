@@ -3,9 +3,8 @@ var backgroundImage, bgImg, car1_img, car2_img, track;
 var database, gameState;
 var form, player, playerCount;
 var allPlayers, car1, car2,fuels, powerCoins;
-var cars = [];
-var fuelImage, powerCoinImage,obstacle1,obstacle1Image;
-var obstacle2Image,obstacle2
+var cars = [],life;
+var fuelImage, powerCoinImage,obstacle1,obstacle1Image,obstacle2Img,obstacle2;
 //BP
 function preload() {
   backgroundImage = loadImage("./assets/background.png");
